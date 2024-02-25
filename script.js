@@ -1,9 +1,6 @@
 
-document.addEventListener('DOMContentLoaded', function() {
-    var formulario = document.getElementById('meuFormulario');
 
-    if (formulario) {
-        formulario.addEventListener('submit', function(event) {
+        document.getElementById('meuFormulario').addEventListener('submit', function(event) {
             event.preventDefault(); // Impede o envio do formulário tradicional
 
             // Obtenha os valores dos campos
@@ -21,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('email').value = '';
             document.getElementById('mensagem').value = '';
         });
-    } else {
-        console.error('Elemento meuFormulario não encontrado.');
-    }
-});
+    
+    
+    
