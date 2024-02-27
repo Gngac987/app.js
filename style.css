@@ -15,7 +15,6 @@ body {
   }
   nav{
     background-color: rgb(50, 49, 49);
-    color: blueviolet;
   }
   
   nav ul {
@@ -30,12 +29,14 @@ body {
     text-decoration: none;
     color: ;
     padding: 1em;
-    display: block;
+    display: block; 
+   
   }
   
   section {
     padding: 2em;
     color: blueviolet; 
+   
     
   }
   
@@ -45,7 +46,8 @@ body {
   
   .image {
     margin-right: 10px; 
-    width: 20%;
+    width: 12%;
+    
     
     /* Ajuste o espaçamento entre as imagens conforme necessário */
   }
