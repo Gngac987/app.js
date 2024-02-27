@@ -1,22 +1,60 @@
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: bisque;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 1em;
 
-        header {
-            background-color: #0d0d0d;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            color: gold;
-        }
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+  }
+  nav{
+    background-color: rgb(50, 49, 49);
+    color: blueviolet;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: ;
+    padding: 1em;
+    display: block;
+  }
+  
+  section {
+    padding: 2em;
+    color: blueviolet; 
+    
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .image {
+    margin-right: 10px; 
+    width: 20%;
+    
+    /* Ajuste o espaçamento entre as imagens conforme necessário */
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+       
         
