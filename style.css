@@ -1,20 +1,35 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     padding: 0;
+    margin-top: 130px; 
     
   }
+  
+
   
   header {
     background-color: black;
     color: gold;
     text-align: center;
     padding: 1em;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    
   }
+
+
+
   nav{
+    
+    height: auto;
     background-color: rgb(50, 49, 49);
+    width: 100%;
+    padding: 1em
+    
+
   }
   
   nav ul {
@@ -23,21 +38,28 @@ body {
     margin: 0;
     display: flex;
     
+    
   }
   
   nav a {
     text-decoration: none;
-    color: ;
+    color: azure;
     padding: 1em;
     display: block; 
+    
+    
    
+  }
+  #home{
+    margin: 220px;
+    margin-left: 30px;
   }
   
   section {
-    padding: 2em;
-    color: blueviolet; 
-   
     
+    color: blueviolet;
+    padding: 2em
+
   }
   
   .container {
