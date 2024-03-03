@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     padding: 0;
-    margin-top: 130px; 
+    margin-top: 190px; 
     
   }
   
@@ -19,7 +19,6 @@ body {
     padding: 10px;
     
   }
-
 
 
   nav{
@@ -46,14 +45,13 @@ body {
     color: azure;
     padding: 1em;
     display: block; 
-    
-    
-   
   }
-  #home{
-    margin: 220px;
-    margin-left: 30px;
+
+  img{
+  height: auto;
+  width: 150px;
   }
+
   
   section {
     
@@ -66,13 +64,7 @@ body {
     display: flex;
   }
   
-  .image {
-    margin-right: 10px; 
-    width: 12%;
-    
-    
-    /* Ajuste o espaçamento entre as imagens conforme necessário */
-  }
+  
   
   footer {
     background-color: #333;
